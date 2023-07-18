@@ -7,7 +7,7 @@ var persons = [
   for(let i = 0; i <= persons.length; i++){
     //display persons
     let nameList = persons[i]
-    let tableData = "<tr><td>"+nameList.name+"</td><td>"+nameList.age+"</td><td>"+nameList.mobile+"</td></tr>"
+    let tableData = "<tr><td>" + nameList.name + "</td><td>" + nameList.age + "</td><td>" + nameList.mobile + "</td></tr>"
     $("#table1").append(tableData)
     
 
